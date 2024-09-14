@@ -1,0 +1,139 @@
+/* section background
+/* -------------------------------------------------- */
+
+#subheader{
+background:url(../images/background/bg-subheader.jpg) top left fixed;
+background-size:cover;
+}
+
+
+#organi {
+    background:url(../images/web/o2.png) top left fixed;
+    background-size:cover;
+}
+#section-contact{ 
+background:url(../images/web/LINEAS.png) top left fixed;
+background-size:cover;
+}
+
+#section-skill-bar{ 
+background:url(../images/background/bg-8.jpg) top left fixed;
+background-size:cover;
+}
+
+#info-address{background:url(../images/background/bg-3.jpg) top fixed;}
+
+#logo-full1{ 
+    
+    background: #000; /* Color de fondo negro */
+    padding: 100px 0 60px 0; /* Ajuste de espaciado */
+    /* Asegura que la sección ocupe toda la pantalla */
+    
+    /* Centra el contenido verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-full{ 
+    
+    background: black; padding:50px 0 50px 0;
+}
+
+
+
+#view-all-projects{
+    background: white;
+    padding:80px 0 40px 0;
+}
+#organigrama{
+    background: black;
+    padding:40px 0 40px 0;
+}
+#aviso-privacidad{
+    background: #622a3d;
+    padding:50px 0 50px 0;
+}
+#manual-organizacion{
+    background: white;
+    padding:10px 0 10px 0;
+}
+
+#espaciado{
+    background: white;
+    padding:20px 0 60px 0;
+}
+#espaciado1{
+    background: white;
+    padding:20px 0 60px 0;
+}
+#espaciado2{
+    background: white;
+    padding:10px 0 10px 0;
+}
+#espaciado-modernizacion{
+    background: white;
+    padding:30px 0 50px 0;
+}
+#noticias{
+    background: white;
+    padding:10px 0 10px 0;
+}
+#espaciado3{
+    background: white;
+    padding:20px 0 20px 0;
+}
+#semaig-espaciado{
+    background: white;
+    padding: 70px 0 60px 0;
+}
+#transparencia{
+    background: white;
+    padding: 0px 0 0px 0;
+}
+#transpa{
+    background:url(../images/web/10.png) no-repeat fixed center;
+    padding: 100px 0 60px 0;
+}
+
+#footer{
+    background:url(../images/web/LINEAS.png);
+    background-position: center bottom; /*Para que la imagen aparezca desde abajo*/
+   background-size: 100px 100px; /*o las medidas que quieras darle a la imagen*/
+   background-repeat: no-repeat; 
+}
+
+#fondo{
+    height: auto; /* Altura automática para mantener la proporción */
+    display: block; /* Para asegurar que la imagen se muestre como un bloque */
+    margin: 0 auto;
+}
+
+#pie{
+    color: black;
+    margin-bottom: -10px;
+    font-size: 10px;
+}
+
+
+#container {
+    background-image: url(../images/web/10.png); /* Ruta de tu imagen de fondo */
+    margin-top: 0px; /* Centra la imagen de fondo */
+    
+    max-width: 100%;
+    height: auto;
+    padding: 100px 0 60px 0;/* Ajusta el relleno del contenedor según sea necesario */
+}
+
+#section-about-us-2{background:#f8f8f8; height:100%;}
+#section-about-us-2 .image-container{background:url(../images/background/bg-side-1.jpg);}
+
+
+.dark #section-about-us-2{background:#222; height:100%;}
+#section-welcome{background:url(../images/background/bg-5.jpg);}
+#section-welcome-2{background:url(../images/background/bg-6.jpg);}
+#section-welcome-3{background:url(../images/background/bg-7.jpg) top left;}
+.dark #section-portfolio{background:#222;}
+
+
+

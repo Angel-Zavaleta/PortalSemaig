@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+
+/* ================================================== */
+/* INDEX DE INICIO A FIN -- BEGIN -- */
+/* ================================================== */
+
+@font-face {
+    font-family: Averta;
+    src: url(../fonts/Averta/Averta-Regular.otf);
+}
+@font-face {
+    font-family: QuatroSlab;
+    src: url(../fonts/Quatro_Slab/QuatroSlab_Regular.otf);
+}
+@font-face {
+    font-family: AvertaExtrabold;
+    src: url(../fonts/Averta/Averta-Extrabold.otf);
+}
+html * {
+    font-family: Averta;
+}
+.font-secundaria{
+    font-family: Quatro Slab;
+}
+
+
+/* ================================================== */
+/* INICIO - TITULO PARA LAS DIRECCIONES */
+/* ================================================== */
+
+
+@media (min-width: 993px) and (max-width: 3100px){
+    .lg-espacio{
+        height: 52vh !important;
+    }
+    .lg-encabezado {
+   
+        color: #53565A;
+        font-size: 60px;
+        font-weight: 900;
+        letter-spacing: 13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 1.2;
+        font-family: AvertaExtrabold !important;
+     
+    }
+    
+    .lg-txt-pw{
+        color: #53565A;
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+/* ================================================== */
+/* INICIO - TITULO LA DIRECCION DE DGSEPP */
+/* ================================================== */
+
+    .lg-espacio-sepp{
+        height: 52vh !important;
+    }
+    .lg-encabezado-sepp {
+   
+        color: #53565A;
+        font-size: 45px;
+        font-weight: 900;
+        letter-spacing: 13px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 1.2;
+        font-family: AvertaExtrabold !important;
+     
+    }
+    
+    .lg-txt-pw-sepp{
+        color: #53565A;
+        font-size: 20px;
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 992px){
+    .md-espacio{
+        height: 42vh !important;
+    }
+    .md-encabezado {
+   
+        color: #53565A;
+        font-size: 45px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 0.1;
+        font-family: AvertaExtrabold !important;
+     
+    }
+    
+    .md-txt-pw{
+        color: #53565A;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+
+/* ================================================== */
+/* INICIO - TITULO LA DIRECCION DE DGSEPP */
+/* ================================================== */
+
+    .md-espacio-sepp{
+        height: 40vh !important;
+    }
+    .md-encabezado-sepp{
+   
+        color: #53565A;
+        font-size: 30px;
+        font-weight: 900;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 0.1;
+        font-family: AvertaExtrabold !important;
+     
+    }
+    
+    .md-txt-pw-sepp{
+        color: #53565A;
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    
+}
+@media (min-width: 456px) and (max-width: 610px){
+    .sm-espacio{
+        height: 40vh !important;
+    }
+    .sm-encabezado{
+   
+        color: #53565A;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 0.1;
+        font-family: AvertaExtrabold !important;
+     
+    }
+    
+    .sm-txt-pw{
+        color: #53565A;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .xs-txt-pw br {
+        display: none;
+    }
+
+/* ================================================== */
+/* INICIO - TITULO LA DIRECCION DE DGSEPP */
+/* ================================================== */
+
+    .sm-espacio-sepp{
+        height: 39vh !important;
+    }
+    .sm-encabezado-sepp{
+   
+        color: #53565A;
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 0.1;
+        font-family: AvertaExtrabold !important;
+     
+    }
+    
+    .sm-txt-pw-sepp{
+        color: #53565A;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .xs-txt-pw-sepp br {
+        display: none;
+    }
+
+    .sm-bottom-sepp{
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (min-width: 300px) and (max-width: 577px){
+    
+    .xs-sm-bottom-sepp{
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (min-width: 457px) and (max-width: 557px){
+    
+    .sm-bottom{
+        margin-bottom: 5px !important;
+    }
+}
+@media (min-width: 400px) and (max-width: 557px) {
+    .xs-encabezado {
+        margin-bottom: 20px !important; /* Ajusta este valor según el espacio que desees */
+    }
+}
+
+
+@media (min-width: 300px) and (max-width: 456px){
+    .xs-espacio{
+        height: 38vh !important;
+    }
+    .xs-encabezado{
+
+        color: #53565A;
+        font-size: 29px;
+        font-weight: 900;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 0.1;
+        font-family: AvertaExtrabold !important;
+    }
+    
+    .xs-txt-pw{
+        color: #53565A;
+        font-size: 8px;
+        margin-top: 0px;
+    }
+    .xs-txt-pw br {
+        display: none;
+    }
+    .xs-bottom{
+        margin-bottom: 0px !important;
+    }
+
+/* ================================================== */
+/* INICIO - TITULO LA DIRECCION DE DGSEPP */
+/* ================================================== */
+
+    .xs-espacio-sepp{
+        height: 38vh !important;
+    }
+    .xs-encabezado-sepp{
+
+        color: #53565A;
+        font-size: 25px;
+        font-weight: 900;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        line-height: 0.1;
+        font-family: AvertaExtrabold !important;
+    }
+    
+    .xs-txt-pw-sepp{
+        color: #53565A;
+        font-size: 8px;
+        margin-top: 0px;
+    }
+    .xs-txt-pw-sepp br {
+        display: none;
+    }
+
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - TABLA RESPONSIVA DE UNIDAD DE IGUALDAD SUSTANTIVA*/
+/* ================================================== */
+
+@media (max-width: 767px) {
+    #medianos {
+        display: none; /* Ocultar la tabla para dispositivos medianos */
+    }
+    #mobil {
+        display: block; /* Mostrar la tabla para dispositivos móviles */
+    }
+}
+
+/* Para dispositivos de 768px en adelante */
+@media (min-width: 768px) {
+    #medianos {
+        display: block; /* Mostrar la tabla para dispositivos medianos */
+    }
+    #mobil {
+        display: none; /* Ocultar la tabla para dispositivos móviles */
+    }
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */

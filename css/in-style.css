@@ -1,0 +1,1357 @@
+@charset "utf-8";
+
+/* ================================================== */
+/* INDEX DE INICIO A FIN -- BEGIN -- */
+/* ================================================== */
+
+@font-face {
+    font-family: Averta;
+    src: url(../fonts/Averta/Averta-Regular.otf);
+}
+@font-face {
+    font-family: QuatroSlab;
+    src: url(../fonts/Quatro_Slab/QuatroSlab_Regular.otf);
+}
+@font-face {
+    font-family: AvertaExtraBold;
+    src: url(../fonts/Averta/Averta-Extrabold.otf);
+}
+@font-face {
+    font-family: QuatroSlabBold;
+    src: url(../fonts/Quatro_Slab/QuatroSlab_Bold.otf);
+}
+
+@font-face {
+    font-family: AvertaBold;
+    src: url(../fonts/Averta/Averta-Bold.otf);
+}
+
+html * {
+    font-family: Averta;
+}
+
+
+/* ================================================== */
+/* CSS PARA EL EVENTO RALLY ---- INDEX.HTML */
+/* ================================================== */
+
+
+.img-responsive-evento {
+    max-width: 40%;
+    height: auto;
+}
+@media (min-width: 200px) and (max-width: 600px){
+    .img-responsive-evento {
+    
+        max-width: 100% !important;
+        height: auto;
+    }
+}
+
+/* ================================================== */
+/* ------- */
+
+.font-secundaria{
+    font-family: Quatro Slab;
+}
+
+.spacing-sections{
+    background: white;
+    padding: 10px 0 10px 0;
+}
+.spacing-sections-second{
+    background: white;
+    padding: 15px 0 15px 0;
+}
+.spacing-sections-tree{
+    background: white;
+    padding: 40px 0 40px 0;
+}
+
+.icon-notas a{
+    color: #b1b1b1;
+}
+.icon-notas a:hover{
+    color: #fff;
+    transform: scale(1.4);
+}
+
+/* ================================================== */
+/* INICIO - FOOTER TODO */
+/* ================================================== */
+
+.social-icons1{
+    display:inline-block;
+    background: url(../images/index/pleca-redes.png);
+    background-size: 100% 100%;
+
+    }
+    .social-icons1 i{
+        text-shadow:none;
+        color: #622a3d;
+        padding: 13px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 25px;
+        border-radius:1px;
+        letter-spacing: -10px;
+        -moz-border-radius:1px;
+        -webkit-border-radius:1px;
+        margin: auto;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .social-icons1 i:hover{
+        transform: scale(1.4);
+}
+
+.img-redes-sociales{
+    height: 80%;
+    width: 100%;
+}
+.img-redes-sociales::before{
+    transform: scale(1.4);
+}
+
+.redes-sociales{
+    padding: 9% 0px 7% 0%;
+    text-align: center !important;
+    
+}
+.redes-sociales h3{
+    position: relative;
+    font-weight: 1000;
+    color: #622a3d;
+    letter-spacing: 19px;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.redes-sociales-secundario{
+    text-align: center !important;
+}
+.redes-sociales-secundario h3{
+    
+    font-weight: 900;
+    color: #c5a47e;;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.redes-sociales-secundario-repeat{
+    text-align: center !important;
+}
+.redes-sociales-secundario-repeat h3{
+    font-weight: 900;
+    color: #622a3d;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+/* ================================================== */
+/* INICIO-Media query para Titulos y Botones de redes sociales secundarios */
+/* ================================================== */
+
+@media (min-width: 320px) and (max-width: 510px){
+    .redes-mobil{
+        text-align: center !important;
+    }
+    .redes-mobil h3{
+        
+        font-weight: 900;
+        color: #c5a47e;
+        letter-spacing: 2px !important;
+        font-size: 15px !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .redes-movil-repeat{
+        text-align: center !important;
+    }
+    .redes-mobil-repeat h3{
+        
+        font-weight: 900;
+        color: #622a3d;
+        letter-spacing: 2px !important;
+        font-size: 15px !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .social-icons1-mobil{
+        display: inline-flex;
+    
+        }
+        .social-icons1-mobil i{
+            text-shadow:none;
+            color: #622a3d;
+            padding: 15px 3px 3px 3px;
+            width: 30px;
+            height: 50px;
+            text-align: center;
+            font-size: 15px;
+            border-radius:1px;
+            -moz-border-radius:1px;
+            -webkit-border-radius:1px;
+            margin: -5px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+            
+        }
+        .social-icons1-mobil i:hover{
+            transform: scale(1.4);
+    }
+}
+/* ================================================== */
+/* FIN-Media query para Titulos y Botones de redes sociales secundarios */
+/* ================================================== */
+.footer1 {
+    background: url(../images/index/pleca-web-otro.png) no-repeat right !important;
+    color: #555; /* Tono gris más elegante */
+    background-size: 25% 100% !important;
+    padding: 50px 0;
+    color: #333;
+}
+
+.logo-footer {
+    max-width: 50%; /* Ajuste para pantallas grandes */
+    height: auto;
+}
+
+
+.footer-text {
+    font-family: AvertaBold !important;
+    color: #555; /* Tono gris más elegante */
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    margin: 0;
+    margin-top: 1.8rem;
+    padding: 5px 0;
+    font-weight: 300; /* Tipografía ligera para mayor sofisticación */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .logo-footer {
+        max-width: 70%; /* Más grande en pantallas pequeñas */
+    }
+    .footer-text {
+        font-size: 9px;
+        text-align: center;
+    }
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer1 {
+        background-size: 45% 100% !important;
+    }
+}
+/* Media Queries */
+@media (max-width: 668px) {
+    .footer1 {
+        background-size: 85% 100% !important;
+    }
+}
+
+
+.imagen-intro {
+
+    height:90% !important;
+    width:100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+@media (min-width: 200px) and (max-width: 992px){
+    .imagen-intro-mobil {
+
+        height:100% !important;
+        width:200% !important;
+        overflow: hidden;
+        margin-top: 0px !important;
+    }
+
+    .imagen-intro-mobil-dc{
+
+        height:100% !important;
+        overflow: hidden;
+        margin-top: 0px !important;
+    }
+}
+
+/* ================================================== */
+/* FIN - FOOTER TODO */
+/* ================================================== */
+
+
+@media (min-width: 992px) and (max-width: 3000px){
+    .prueba-footer {
+    background: url(../images/index/pleca-web-otro.png);
+    background-size: 25% 100%; /* Ajusta la imagen de fondo para adaptarse al tamaño del footer sin distorsionarla */
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #ccc;
+    padding: 70px;
+    }
+    
+}
+
+
+.de-video-container1{
+    position: relative;
+    width: 100%;
+    height: 100vh; /* La altura del viewport */
+    overflow: hidden;
+    }
+    .de-video-container1 img{
+        
+        height:100% !important;
+        width:100%;
+        overflow: hidden;
+        margin-top: 100px;
+    }
+    
+    .de-video-content1{
+    width:100%;
+    position:absolute;
+    z-index:10;
+    
+    }
+
+
+/* UNIDAD DE IGUALDAD SUSTANTIVA */
+/* ================================================== */
+
+.txt-uis{
+    font-size: 14px;
+    font-family: QuatroSlab;
+    line-height: 2;
+}
+
+.td-uis-fraccion{
+    font-size: 14px;
+    text-align: left !important;
+    color: black;
+    font-weight: bold;
+}
+.td-uis{
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+}
+
+/* social-icons */
+/* ================================================== */
+.social-icons2{
+    display:inline-block;
+    }
+    .social-icons2 i{
+        text-shadow:none;
+        background-color: #622a3d;
+        color: #fff;
+        padding: 12px;
+        width: 48px;
+        height: 45px;
+        text-align: center;
+        font-size:20px;
+        border-radius:1px;
+        -moz-border-radius:1px;
+        -webkit-border-radius:1px;
+        }
+    .social-icons2 i:hover{
+        background:#fff;
+        border-color:#eceff3;
+        color:#333;
+}
+
+.title-uis-cap{
+    background-color: #622a3d !important;
+	text-align: center;
+	font-size: 13px;
+	color: #fff !important;
+	font-weight: bold;
+}
+.td2-uis{
+    font-size: 13px;
+    color: black;
+}
+
+/* UNIDAD DE TRANSPARENCIA */
+/* ================================================== */
+
+.img-transparencia{
+    background-image: url(../images/index/web-portada.png); /* Establece la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    height: 70vh; /* Establece la altura del div al 100% de la altura de la ventana */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+.img-transparencia h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center !important;
+    padding: 32vh 20px 32vh 20px !important;
+}
+
+.icono-transparencia{
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    color: #622a3d;
+}
+.btn-transparencia{
+    margin-top: 10px;
+    width: 100%;
+}
+.btn-transparencia:hover,
+.btn-transparencia:focus,
+.btn-transparencia:active,
+.btn-transparencia.active,
+.open .dropdown-toggle.btn-transparencia {
+  color: #fff;
+  background-color:  #9F2241;
+  border-color: #10312B;
+}
+
+#datos2022, #datos2023 {
+    display: none;
+}
+#titulo2022, #titulo2023{
+    display: none;
+}
+.btn-indice{
+    width: 95%;
+    height: 50px;
+    background-color: #622a3d;
+    border-color: #fff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-indice:hover,
+.btn-indice:focus,
+.btn-indice:active,
+.btn-indice.active,
+.open .dropdown-toggle.btn-indice {
+  color: #888B8D;
+  background-color: #10312B;
+  border-color: #10312B;
+  transform: scale(1.1);
+}
+
+.informe-uno{
+    margin-top: 8%;
+}
+
+
+#fun-facts1{
+    background:url(../images/portadas/fondo_rojo.webp) top  fixed;
+    background-size:cover;
+    margin-top: 70px;
+}
+
+.tr-icons{
+    margin: 0 0 10px !important;
+    margin-bottom: 20px !important;
+}
+
+/* SECCION DE INFORMES DE GOBIERNO, CUADROS CONTENDORES Y RESPONSIVOS */
+/* ------------------------------ */
+
+.cuandro-informe{
+    text-align:center !important;
+    padding: 30px 0 30px 0;
+    background:none;
+}
+.cuadro-informe img{
+    width: 100%;
+    height: 100%;
+    margin-top: 11vh;
+    margin-bottom: 7vh;
+}
+
+	.de_count-informes{
+        text-align:center;
+        padding: 30px 0 30px 0;
+        background:none;
+    }
+    .de_count-informes img {
+        transition: transform 0.3s ease;
+        touch-action: none;
+        width: 100%;
+        height: 100%;
+    }
+        
+    .de_count-informes img:hover {
+        transform: scale(1.1); 
+    }
+
+
+@media (min-width: 200px) and (max-width: 992px){
+    #fun-facts1{
+        background:url(../images/portadas/fondo_rojo.webp) top  fixed;
+        background-size:cover;
+        margin-top: auto;
+    }
+}
+@media (min-width: 300px) and (max-width: 991px) {
+    .de_count-informes{
+        text-align:center;
+        padding: 30px 0 30px 0;
+        background:none;
+    }
+    .de_count-informes img {
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .cuandro-informe{
+        text-align:center !important;
+        padding: 30px 0 30px 0;
+        background:none;
+    }
+    .cuadro-informe img{
+        width: 50%;
+        height: 50%;
+        margin-top: 4vh;
+        margin-bottom: 7vh;
+        margin-right: 25%;
+    }
+    .cuandro-informe2{
+        text-align:center !important;
+        padding: 30px 0 30px 0;
+        background:none;
+    }
+    .cuadro-informe2 img{
+        width: 50% !important;
+        height: 50% !important;
+        margin-top: 4vh !important;
+        margin-bottom: 9vh !important;
+        margin-right: 25% !important;
+    }
+
+}
+
+.cuandro-informe2{
+    text-align:center !important;
+    padding: 30px 0 30px 0;
+    background:none;
+}
+.cuadro-informe2 img{
+    width: 50%;
+    height: 50%;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    margin-right: 30%;
+}
+
+@media only screen 
+and (device-width: 1024px) 
+and (device-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+        .cuandro-informe2{
+            text-align:center !important;
+            padding: 30px 0 30px 0;
+            background:none;
+        }
+        .cuadro-informe2 img{
+            width: 50%;
+            height: 50%;
+            margin-top: 5vh !important;
+            margin-bottom: 5vh;
+            margin-right: 30%;
+        }
+        .cuandro-informe{
+            text-align:center !important;
+            padding: 30px 0 30px 0;
+            background:none;
+        }
+        .cuadro-informe img{
+            width: 100%;
+            height: 100%;
+            margin-top: 7vh !important;
+            margin-bottom: 7vh;
+            margin-right: 25%;
+        }
+}
+
+#fun-facts-informe1{
+    background:url(../images/portadas/fondo_rojo.webp) top  fixed;
+    background-size:cover;
+    margin-top: 70px;
+}
+
+
+/* ================================================== */
+/* MEDIA QUERYS PARA SECCION DE INFORMES DE GOBIERNOS --- INDEX.HTML */
+/* ================================================== */
+
+@media (min-width: 100px) and (max-width: 991.98px){
+    #fun-facts-mobil{
+        background:url(../images/portadas/fondo_rojo.webp) top left fixed;
+        background-size:cover;
+    }
+    #fun-facts{
+        display: none;
+    }
+    .de_count-mobil{
+        text-align:center;
+        padding: 0px 0 30px 0;
+        background:none;
+    }
+}
+@media (min-width: 992px) and (max-width: 10000px){
+    #fun-facts-mobil{
+        display: none;
+    }
+    #fun-facts{
+        background:url(../images/portadas/fondo_rojo.webp) top left fixed;
+        background-size:cover;
+    }
+}
+
+
+/* ================================================== */
+/* ================================================== */
+
+
+/* ================================================== */
+/* MEDIA QUERYS PARA SECCION DE PLAN ESTATAL DE GOBIERNO --- INDEX.HTML */
+/* ================================================== */
+
+
+@media (min-width: 993px) and (max-width: 10000px){
+    #fun-plan-estatal-mobil{
+        display: none;
+    }
+    #fun-plan-estatal{
+        background:url(../images/index/plan_estatal/pleca_fondo.png) top left;
+        background-size:cover;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 992px){
+    #fun-plan-estatal-mobil{
+        background:url(../images/index/plan_estatal/pleca_fondo.png) top left fixed;
+        background-size:cover;
+    }
+    #fun-plan-estatal{
+        display: none;
+    }
+    .de_count-plan-mobil{
+        text-align:center;
+        padding: 0px 0 30px 0;
+        background:none;
+    }
+        
+}
+
+/* ================================================== */
+/* ================================================== */
+
+
+/* social-icons */
+/* ================================================== */
+.social-icons-vm{
+    display:inline-block;
+    }
+        .social-icons-vm i{
+        text-shadow:none;
+        color: #fff;
+        padding: 10px;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        font-size:20px;
+        border-radius:1px;
+        -moz-border-radius:1px;
+        -webkit-border-radius:1px;
+        background-color: #622a3d !important;
+        }
+        .social-icons-vm i:hover{
+        transform: scale(1.1);
+}
+
+button {
+    
+    text-align: center !important;
+    text-decoration: none !important;
+  }
+  .custom-btn {
+    text-align: center !important;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px #fff,
+     7px 7px 20px 0px #fff,
+     4px 4px 5px 0px #fff;
+    outline: none;
+  }
+  
+
+/* ================================================== */
+/* INICIO - COMITE DE ETICA */
+/* ================================================== */
+
+
+.info-sector {
+    display: none;
+}
+
+  .custom-list {
+    counter-reset: section;
+    padding-left: 20px;
+}
+
+.custom-list li {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 5px;
+    font-family: QuatroSlabBold;
+}
+.custom-list li:hover{
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+}
+.custom-list li:marker{
+    color:  #235B4E;
+    font-weight: bold; 
+}
+
+.etica{
+    width: 90% !important;
+    height: 90% !important;
+    padding-top: 10px !important;
+}
+
+.highlighted {
+    color: #AB9470 !important;
+    text-decoration: none;
+}
+
+.tt-etica{
+    font-weight: bold;
+    color: #AB9470 !important;
+}
+
+#tabla-etica {
+	background-color: #F2F5F7;
+}
+.tb-etica {
+	text-align: center;
+	font-size: 1em;
+	color: white !important;
+	font-weight: bold;
+}
+/* social-icons */
+	/* ================================================== */
+	.social-icons-etica{
+        display:inline-block;
+        }
+        .social-icons-etica i{
+        text-shadow:none;
+        color: #fff;
+        padding: 10px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        font-size:15px;
+        border-radius:0px;
+        -moz-border-radius:0px;
+        -webkit-border-radius:0px;
+        background-color: #622a3d !important;
+        margin: -5px;
+        }
+        .social-icons-etica i:hover{
+        background:#fff;
+        border-color:#eceff3;
+        color:#fff;
+        }
+
+/* ================================================== */
+/* FIN - COMITE DE ETICA */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - COOPERACION INTERNACIONAL */
+/* ================================================== */
+
+.ci-titulo{
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 5px !important;
+    color: #622a3d;
+    font-size: 35px;
+}
+.ci-tt{
+    text-align: justify;
+    font-size: 16px;
+    color: black;
+}
+
+#ci-mobil {
+    display: none;
+}
+
+/* Mostrar el contenedor móvil en pantallas más pequeñas */
+@media (max-width: 769px) {
+    #ci {
+        display: none;
+    }
+    #ci-mobil {
+        display: block;
+    }
+    .ci-titulo{
+        font-weight: bold;
+        padding-bottom: 15px;
+        letter-spacing: 5px !important;
+    }
+}
+
+
+.lineatemp{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #53565A;
+    border-radius: 5px;
+    text-align: justify;
+    }
+
+
+.fila{
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #53565A;
+    position: relative;
+    padding: 0px 40px;
+    }
+.fila .disco{
+    width: 36px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.fila .disco:after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: calc(505 - 2px);
+    height: 100%;
+    width: 3px;
+    background: #622a3d;
+    z-index: -1;
+    }
+.fila:first-child .disco:after{
+    height: 50%;
+    top: 50%;
+    }
+.fila:last-child .disco:after{
+    height: 50%;
+    }
+
+
+.fila .disco > div{
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #622a3d;
+    box-sizing: border-box;
+    }
+.fila:hover .disco > div{
+    border: 3px solid #622a3d;
+    background: white;
+    }
+.fila div:nth-of-type(2){
+    width: 20%;
+    padding: 0px 5%;
+    display: flex;
+    align-items:center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    }
+.fila div:nth-of-type(3){
+    width: 70%;
+    padding: 15px;
+    color: black;
+    font-size: clamp(1.050rem, 4vw + 1rem, 1.050rem);
+    }
+
+@media (min-width: 200px) and (max-width: 500px){
+    .fila{
+        display: flex;
+        justify-content: start;
+        border-bottom: 1px solid #53565A;
+        position: relative;
+        padding: 0px 0px !important;
+        }
+    .lineatemp{
+        width: 100% !important;
+        text-align: justify;
+    }
+    .fila div:nth-of-type(2){
+        width: 20%;
+        padding: 4px !important;
+        display: flex;
+        align-items:center;
+        color: black;
+        font-size: 17px;
+        font-weight: bold;
+        padding-left: 20px !important;
+        }
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .img-uci{
+        height: 100% !important;
+        width: 80% !important;
+    }
+
+}
+@media (min-width: 400px) and (max-width: 460px){
+    .ci-tprimario{
+        font-size: 30px !important;
+    }
+}
+@media (min-width: 335px) and (max-width: 400px){
+    .ci-tprimario{
+        font-size: 25px !important;
+    }
+}
+@media (min-width: 200px) and (max-width: 335px){
+    .ci-tprimario{
+        font-size: 23px !important;
+    }
+}
+
+.ci-inter1{
+    text-align: right;
+    font-size: 20px;
+    font-family: AvertaExtraBold;
+    color: black;
+    padding: 10px 10px;
+    margin: 5px auto;
+    
+}
+.ci-inter{
+    text-align: justify;
+    font-size: clamp(1.050rem, 2vw + 1rem, 1.050rem);
+    font-weight: bold;
+    color: white;
+    padding: 10px 10px;
+    background-color: #622a3d;
+    border: 2px solid white;
+}
+.td-uci{
+    color: black;
+    height: 10px;
+}
+.td-uci1{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.adaptable{
+    width: 30% !important;
+    height: 30% !important;
+}
+.aliados{
+    width: 20% !important;
+    height: 20% !important;
+}
+
+.aliados-table {
+	text-align: left;
+	font-size: 1.2em;
+	color: white !important;
+	font-weight: bold;
+}
+.aliados-table1 {
+	text-align: left;
+	font-size: 1.2em;
+	color: white !important;
+	font-weight: bold;
+    width: 50%;
+}
+
+#fun-facts2{
+    background:url(../images/elementos/fondo-blanco.png) top  fixed;
+    background-size:;
+    margin-top: 70px;
+}
+.global{
+    text-align:center !important;
+    padding: 50px 0 30px 0;
+    background:none;
+}
+.global img{
+    width: 100% !important;
+    height: 50% !important;
+    margin-top: 20vh !important;
+    margin-right: 25% !important;
+}
+
+@media (min-width: 300px) and (max-width: 992px){
+    .global{
+        text-align:center !important;
+        padding: 0px 0 0px 0 !important;
+        background:none;
+    }
+    .global img{
+        margin-top: 0vh !important;
+
+    }
+    #fun-facts2{
+        padding: 8vh 0px 8vh 0px !important;
+    }
+}
+@media (min-width: 1750px) and (max-width: 6000px){
+    .global{
+        text-align:center !important;
+        padding: 0px 0 0px 0 !important;
+        background:none;
+    }
+    .global img{
+        margin-top: 10vh !important;
+        margin-right: 25% !important;
+    }
+}
+@media (min-width: 200px) and (max-width: 600px){
+    .aliados{
+        width: 90% !important;
+        height: 90% !important;
+    }
+}
+@media (min-width: 600px) and (max-width: 991.98px){
+    .aliados{
+        width: 50% !important;
+        height: 50% !important;
+    }
+}
+
+
+/* ================================================== */
+/* FIN - COOPERACION INTERNACIONAL */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - PLANEACION Y POLITICAS PUBLICAS */
+/* ================================================== */
+
+
+.cont-pgm {
+    display: none;
+}
+.highlighted2 {
+    color: #AB9470 !important;
+    text-decoration: none;
+}
+.list-pgm {
+    padding-left: 20px; 
+}
+
+.list-pgm li {
+    font-family: QuatroSlabBold;
+    font-size: 15px; 
+    color: #333; 
+    margin-bottom: 5px; 
+}
+
+.list-pgm li:hover {
+    background-color: #f0f0f0; 
+    cursor: pointer; 
+}
+
+.list-pgm li::marker {
+    color:  #235B4E;
+    font-weight: bold; 
+}
+
+.pgm-sec{
+    color: black;
+    font-size: 14px;
+}
+
+/* ================================================== */
+/* FIN - PLANEACION Y POLITICAS PUBLICAS */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - UNIDAD DE ARCHIVO */
+/* ================================================== */
+
+.tt-archivo{
+    font-size: 15px;
+    text-align: justify;
+    color: black;
+}
+
+.txt-archivo{
+    font-size: 15px;
+    color: black;
+}
+
+.button_container {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+}
+
+.description, .link {
+  text-align: center;
+}
+
+.description {
+	font-size: 25px;
+}
+
+.btn_archivo {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: white;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn_archivo span {
+  position: relative; 
+  z-index: 1;
+  font-size: 18px;
+}
+
+.btn_archivo:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  color: white !important;
+  background: #622a3d;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn_archivo:hover {
+    color: white !important;
+}
+.btn_archivo span:hover {
+    color: white !important;
+}
+
+.btn_archivo:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+  color: #fff;
+  font-size: 25px; 
+}
+
+.contenedor-galeria {
+    display: grid;
+    place-items: center;
+    width: 50%;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 300px;
+}
+
+.contenedor-imagen {
+    position: relative;
+    left: 0;
+    width: 100px;
+    border-radius: 5px;
+    height: 150px;
+    overflow: hidden;
+    background-color: #efefef;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+    flex: 0.25;
+}
+
+.contenedor-imagen img {
+    height: 150px;
+    width: auto;
+    object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+    flex: 2;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* ================================================== */
+/* FIN - UNIDAD DE ARCHIVO */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - MODERNIZACION ADMNINISITRATIVA */
+/* ================================================== */
+
+.ma-orga {
+	font-size: 1.2em;
+	color: black;
+	font-weight: bold;
+}
+.title-tabla {
+	text-align: center;
+	font-size: 1.2em;
+	color: white !important;
+	font-weight: bold;
+    background-color: #235B4E;
+}
+
+/* ================================================== */
+/* FIN - MODERNIZACION ADMNINISITRATIVA */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - TREN LIGERO */
+/* ================================================== */
+
+
+.carousel-inner img {
+    width: 60%;
+    height: 60%;
+}
+
+.spacing-sections-second1{
+    background: white;
+    padding: 15px 0 15px 0;
+}
+.spacing-sections-second2{
+    background: white;
+    padding: 15px 0 15px 0;
+}
+.spacing-sections-second3{
+    background: white;
+    padding: 15px 0 15px 0;
+}
+
+@media (min-width: 200px) and (max-width: 991.98px){
+    .spacing-sections-second2{
+        display: none !important;
+    }
+    .spacing-sections-second3{
+        display: none !important;
+    }
+
+    #tren-ligero{
+        margin-top: 6rem !important;
+    }
+}
+
+
+/* ================================================== */
+/* FIN - TREN LIGERO */
+/* ================================================== */
+
+/* ================================================== */
+/* TITULO PRIMARIO PARA TODOS LOS TITULOS */
+/* ================================================== */
+
+h1.titulo-primario span {
+	color:#622a3d;
+    font-size: clamp(2rem, 4vw + 1rem, 2.5rem); /* Min 30px, dinámico, y Max 35px */
+    font-family: AvertaBold !important;
+    font-weight: 300 !important;
+    word-wrap: break-word; /* Romper palabras largas */
+    overflow-wrap: break-word;
+}
+.titulo-secundario {
+	color: #c5a47e;
+    font-size: clamp(2rem, 4vw + 1rem, 2.5rem); /* Min 30px, dinámico, y Max 35px */
+    font-family: AvertaBold !important;
+    font-weight: 300 !important;
+    word-wrap: break-word; /* Romper palabras largas */
+    overflow-wrap: break-word;
+}
+.small-border{
+    height: 2px !important;
+    width: 20% !important;
+}
+.tt-objetivo{
+    font-size: clamp(1.050rem, 4vw + 1rem, 1.1rem);
+    text-align: justify;
+    line-height: 1.6;
+    color: black;
+}
+.img-caro div img {
+    width: 100% !important;            /* Ancho al 100% del contenedor */
+    height: auto !important;          /* Alto fijo, ajustable según lo que necesites */
+    object-fit: cover !important;      /* Asegura que la imagen cubra el contenedor sin deformarse */
+}
+
+.custom-card {
+    background-color: #622a3d; /* Fondo rojo */
+    color: white; /* Letras blancas */
+}
+
+.custom-card a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Mantiene el color del texto como el color del padre (blanco) */
+}
+
+.custom-card a:hover {
+    text-decoration: none; /* Mantiene sin subrayado cuando se pasa el mouse */
+    color: inherit; /* Mantiene el color al pasar el mouse */
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-height: 500px; /* Ajusta la altura máxima según sea necesario */
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* ================================================== */
+/* FIN */
+/* ================================================== */
+

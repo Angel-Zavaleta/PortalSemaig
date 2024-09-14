@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: Averta;
+    src: url(../fonts/Averta/Averta-Regular.otf);
+}
+@font-face {
+    font-family: QuatroSlab;
+    src: url(../fonts/Quatro_Slab/QuatroSlab_Regular.otf);
+}
+@font-face {
+    font-family: AvertaExtraBold;
+    src: url(../fonts/Averta/Averta-Extrabold.otf);
+}
+
+@font-face {
+    font-family: QuatroSlabBold;
+    src: url(../fonts/Quatro_Slab/QuatroSlab_Bold.otf);
+}
+
+@font-face {
+    font-family: AvertaBold;
+    src: url(../fonts/Averta/Averta-Bold.otf);
+}
+
+/* ================================================== */
+/* header */
+/* ================================================== */
+
+header {
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	-ms-transition: height 0.3s;
+	-o-transition: height 0.3s;
+	transition: height 0.3s; 
+	background:rgba(0,0,0,0);
+	background-color: #fff;
+}
+header nav a {
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s; 
+}
+header nav a:hover {
+	color: #555; 
+}
+
+/*  */
+.text-menu{
+	font-family: AvertaBold;
+	float: left;
+	height: 60px;
+	font-size:12px;
+	letter-spacing:1px;
+	padding: 18px 5px 0px 5px;
+	margin: 5px;
+}
+.logo-index{
+	padding: 0px 30px 0px 40px !important;
+	height: 50px;
+}
+.dropdown-menu-vino {
+	background-color: #691C32 !important;
+}
+.dropdown-menu-vino li a {
+	color: #ffffff !important;
+	font-family: AvertaBold !important;
+	font-size: 14px !important;
+}
+.dropdown-menu-vino li a:hover {
+    background-color: #9F2241 !important; 
+}
+
+.social-container {
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex;
+    justify-content: space-around; /* Distribuir los iconos uniformemente */
+    width: auto; /* Anchura del contenedor */
+    height: auto; /* Altura del contenedor */
+}
+#menu-icon a{
+	display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 5px; /* Separación entre los íconos */
+    transition: color 0.3s ease;
+	padding: 18px 0px 0px 0px;
+}
+
+/* Colores de los íconos individuales */
+#menu-icon a.facebook i {
+    color: #3b5998; /* Color del ícono de Facebook */
+	font-size: 15px; /* Aumentar el tamaño del ícono */
+}
+
+#menu-icon a.instagram i {
+    color: #e1306c; /* Color del ícono de Instagram */
+	font-size: 15px; /* Aumentar el tamaño del ícono */
+}
+#menu-icon a.twitter i {
+    color: #1DA1F2;
+	font-size: 15px; /* Aumentar el tamaño del ícono */
+}
+
+#menu-icon a.threads i {
+    color: #000000;
+	font-size: 15px; /* Aumentar el tamaño del ícono */
+}
+
+/* Efecto hover para los íconos */
+#menu-icon a i:hover {
+    opacity: 0.8; /* Cambia la opacidad al pasar el ratón */
+	transform: scale(1.2);
+}
+
+
+@media (min-width: 200px) and (max-width: 991.98px){
+	.navbar {
+        background-color: rgba(0,0,0,1) !important;
+    }
+    .navbar.navbar-light {
+        background-color: rgba(0,0,0,1) !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: white !important;
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #ddd !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1180.98px){
+	.logo-index{
+		padding: 0px 10px 0px 20px !important;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1060.98px){
+	.text-menu{
+		margin: 0px !important;
+	}
+}
+
+
+@media (min-width: 200px) and (max-width: 991.98px){
+	.text-menu{
+		padding: 30px 5px 0px 5px !important;
+	}
+	#menu-icon{
+		display: none !important;
+	}
+	.logo-index{
+		padding: 0px 10px 0px 10px !important;
+	}
+}
+
+@media (max-width: 1220px) and (min-width: 991.98px) {
+    .logo-index{
+		padding: 0px 10px 0px 10px !important;
+	}
+	#menu-icon a{
+		margin-right: 0px !important; /* Separación entre los íconos */
+	}
+	.text-menu{
+		margin: 0px !important;
+		letter-spacing: 0px !important;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 991.98px){
+	header {
+		height: 0px !important;
+		position: relative !important;
+	}
+	.text-menu{
+		text-align: left !important;
+		padding: 10px 20px 10px 20px !important;
+		height: 40px !important;
+		line-height: 35px !important;
+		margin-bottom: 10px !important;
+		letter-spacing: 2px !important;
+	}
+	.logo-index{
+		width: 80% !important;
+		height: 80% !important;
+	}
+	.dropdown-menu-vino li a {
+		padding-left: 40px !important;
+		font-size: 12px !important;
+	}
+	.dropdown-menu-vino li a:hover {
+		background-color: #9F2241 !important; 
+	}
+	.linea-dec li{
+		border-bottom: solid 1px #333;
+		margin-top: 10px;
+	}
+	.linea-dec li ul li{
+		border-bottom: black;
+		letter-spacing: 1px !important;
+	}
+}

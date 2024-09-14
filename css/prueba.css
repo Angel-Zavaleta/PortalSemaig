@@ -1,0 +1,124 @@
+@font-face {
+    font-family: AvertaExtrabold;
+    src: url(../fonts/Averta/Averta-Extrabold.otf);
+}
+
+ .columna {
+	 margin-top: 3rem;
+	 padding-left: 3rem;
+     transition: 0.5s;
+}
+ .columna:hover {
+	 padding-left: 0;
+}
+ .columna:hover .categoria .txt {
+	 margin-left: 1rem;
+}
+ .columna:hover .categoria .txt h1, .columna:hover .categoria .txt p {
+	 color: rgba(0, 0, 0, 1);
+	 opacity: 1;
+     transition: 0.5s;
+}
+ .columna:hover a {
+	 /*color: rgba(255, 255, 255, 1);*/
+	 color:#BCA986;
+}
+ .columna:hover a:after {
+	 width: 10%;
+}
+ .categoria {
+	 background-color: transparent;
+	/*background-color: rgba(159, 34, 65, .05);*/
+	 /*background-color: rgba(105, 28, 50, .35);*/
+	 min-height: 150px;
+	 margin: 0;
+	 padding: 1.7rem 1.2rem;
+	 border: none;
+	 border-radius: 0;
+	 color: rgba(0, 0, 0, 1);
+	 letter-spacing: 0.05rem;
+	 /*box-shadow: 0 0 21px rgba(0, 0, 0, .35);*/
+	 background-size: 50%; 
+	 background-position: 100% 100%;
+	 background-repeat: no-repeat;
+	 text-decoration: none;
+     transition: 0.5s;
+	 
+}
+ .categoria .txt {
+	 margin-left: -3rem;
+	 z-index: 1;
+     transition: 0.5s;
+}
+ .categoria .txt h1 {
+	 font-size: 15px;
+	 font-weight: 300;
+	 text-transform: uppercase;
+	 color: black;
+     transition: 0.5s;
+}
+.vm{
+	font-family: AvertaExtrabold !important;
+	font-size: 20px !important;
+	 font-weight: 900 !important;
+	 text-transform: uppercase !important;
+	 color: black !important;
+	 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) !important; 
+     transition: 0.5s;
+}
+@media (min-width: 300px) and (max-width: 480px) {
+    .vm {
+        font-size: 17px !important;
+		letter-spacing: 1px !important;
+        
+    }
+}
+ .categoria .txt p {
+	 font-size: 0.7rem;
+	 letter-spacing: 0rem;
+	 margin-top: 33px;
+	 opacity: 0;
+	 /*color: rgba(255, 255, 255, 1);*/
+	 color:#BCA986;
+}
+ .categoria a {
+	 z-index: 3;
+	 font-size: 0.7rem;
+	 color: rgba(0, 0, 0, 1);
+	 margin-left: 1rem;
+	 position: relative;
+	 bottom: -0.5rem;
+	 text-transform: uppercase;
+}
+ .categoria a:after {
+	 content: "";
+	 display: inline-block;
+	 height: 0.5em;
+	 width: 0;
+	 margin-right: -100%;
+	 margin-left: 10px;
+	 /*border-top: 1px solid rgba(255, 255, 255, 1);*/
+	 border-top: 1px solid #BCA986;
+	 transition: 0.5s;
+}
+ .categoria .ico-categoria {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 bottom: 0;
+	 right: 0;
+	 width: 100%;
+	 height: 100%;
+	 overflow: hidden;
+}
+ .categoria i {
+	 position: relative;
+	 right: -50%;
+	 top: 60%;
+	 font-size: 12rem;
+	 line-height: 0;
+	 opacity: 0.2;
+	 /*color: rgba(255, 255, 255, 1);*/
+	 color:#BCA986;
+	 z-index: 0;
+}

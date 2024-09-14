@@ -1,0 +1,432 @@
+@charset "utf-8";
+/* ================================================== */
+/* INDEX DE INICIO A FIN -- BEGIN -- */
+/* ================================================== */
+
+@font-face {
+    font-family: Averta;
+    src: url(../fonts/Averta/Averta-Regular.otf);
+}
+@font-face {
+    font-family: QuatroSlab;
+    src: url(../fonts/Quatro_Slab/QuatroSlab_Regular.otf);
+}
+@font-face {
+    font-family: AvertaExtrabold;
+    src: url(../fonts/Averta/Averta-Extrabold.otf);
+}
+html * {
+    font-family: Averta;
+}
+.font-secundaria{
+    font-family: Quatro Slab;
+}
+
+/* ================================================== */
+/* INICIO - SECCION DIRECCIONES */
+/* ================================================== */
+
+
+#section-direcciones{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+
+/* ================================================== */
+/* INICIO - SECCION INFORME */
+/* ================================================== */
+
+#section-informe{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+/* ================================================== */
+/* INICIO - SECCION PLAN ESTATAL */
+/* ================================================== */
+
+#section-plan{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size:;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+/* ================================================== */
+/* INICIO - SECCION NOTICIAS */
+/* ================================================== */
+
+#section-notas{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+/* ================================================== */
+/* INICIO - SECCION UNIDADES */
+/* ================================================== */
+
+
+#section-testimonial{ 
+    position: relative;
+    background:url(../images/index/unidades/vuelos-tres.webp) top fixed;
+    background-position: top;
+    background-size: cover;
+    padding: 50px 0 0px 0;
+}
+#section-testimonial::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.603); /* Color de fondo transparente opaco */
+}
+
+/* ================================================== */
+/* INICIO - SECCION CDC */
+/* ================================================== */
+
+#section-cdc{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+/* ================================================== */
+/* INICIO - SECCION SOPORTE TECNICO */
+/* ================================================== */
+
+#soporte-tecnico{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: cover;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+/* ================================================== */
+/* INICIO - SECCION REDES SOCIALES */
+/* ================================================== */
+
+#section-enlaces{ 
+    background:url(../images/enlaces/fondo_enlaces.webp) ;
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-position: center;
+    padding: 3rem 10px;
+    max-height: max-content;
+}
+
+/* ================================================== */
+/* INICIO - TITULOS SEMAIG */
+/* ================================================== */
+
+
+#section-semaig{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+#section-organigrama{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* INICIO - TITULOS DIRECCION DE PLANEACION */
+/* ================================================== */
+
+
+#section-planeacion1{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+@media (min-width: 300px) and (max-width: 470px){
+    .quitar-espacio-letras{
+        letter-spacing: 4px !important;
+    }
+}
+@media (min-width: 300px) and (max-width: 490px){
+    .quitar-espacio-letras2{
+        letter-spacing: 1px !important;
+    }
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - TITULOS DIRECCION DE VINCULACION MUNICIPAL */
+/* ================================================== */
+
+
+#section-vm{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size:;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+.titulo-vinculacion {
+	color:#622a3d;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 8px;
+}
+.titulo-vinculacion-secundario {
+	color: #c5a47e;;
+    font-size: 33px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.td-vm{
+    font-size: 1.1em;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-top: 2% !important;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - TITULOS DIRECCION DE EVALUCAION Y SEGUIMIENTO DE POLIITCAS PUBLICAS */
+/* ================================================== */
+
+
+#section-dgsepp{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - TITULOS DIRECCION DE PLANEACION Y POLITICAS PRESUPUESTARIAS */
+/* ================================================== */
+
+
+#section-ppp{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size:;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - TITULOS DIRECCION DE MODERNIZACION ADMINISTRATIVA */
+/* ================================================== */
+
+
+#section-dgma{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - TITULOS IGUALDAD SUSTANTIVA */
+/* ================================================== */
+
+
+#section-uis{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-attachment: inherit !important;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - DENUNCIAS CIUDADANAS */
+/* ================================================== */
+
+
+#section-denuncias{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - AVISOS DE PRIVACIDAD */
+/* ================================================== */
+
+
+#section-av-priv{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: cover;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 5rem 10px 50px 10px;
+}
+#section-av-priv1{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: cover;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 5rem 10px 50px 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+
+/* ================================================== */
+/* INICIO - TITULOS DE DIRECCION GENERAL DE POLITICA PRESUPUESTARIA */
+/* ================================================== */
+
+
+#section-dgpp-ria{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: cover;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 5rem 10px 50px 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+
+/* ================================================== */
+/* INICIO - TITULOS DE COMITE DE ETICA */
+/* ================================================== */
+
+
+#section-c-etica{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - TITULOS DE ARCHIVO */
+/* ================================================== */
+
+
+#section-archivo{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - TITULOS DIRECCION DE PLANEACION */
+/* ================================================== */
+
+
+#section-ucinter{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+/* ================================================== */
+/* INICIO - TREN LIGERO */
+/* ================================================== */
+
+
+#section-tren{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 8vh 10px 8vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
+
+
+/* ================================================== */
+/* INICIO - TITULO DE RALLY */
+/* ================================================== */
+
+
+#rally{ 
+    background:url(../images/index/fondo_titulos.webp) ;
+    background-size: ;
+    background-attachment: inherit !important;;
+    background-position: center;
+    padding: 10vh 10px 10vh 10px;
+}
+
+/* ================================================== */
+/* END */
+/* ================================================== */
